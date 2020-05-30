@@ -18,7 +18,9 @@ python3 -m venv venv
 pip install -r requirements.txt
 ```
 
-3. Then run Jupyter Notebook,
+## Usage
+
+You can either run the Jupyter Notebook,
 
 ```bash
 jupyter notebook my_analysis.ipynb
