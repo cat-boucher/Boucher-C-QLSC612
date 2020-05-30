@@ -10,4 +10,5 @@ pip install -r requirements.txt
 3. Then run Jupyter Notebook, or standalone script:
 
 jupyter notebook my_analysis.ipynb
+
 python3 myanalysis.py
