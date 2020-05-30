@@ -2,7 +2,7 @@ The code for this assignment will use Python 3.7
 
 1. Clone repository from github
 
-2. Create virtual environment :
+2. Create virtual environment:
 python3 -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
