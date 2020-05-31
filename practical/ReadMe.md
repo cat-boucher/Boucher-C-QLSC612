@@ -6,7 +6,7 @@ This is my assignment, where I produce false positives via p-hacking!
 
 The code for this assignment for QLSC612 will use Python 3.7
 
-1. Clone repository from github
+1. Clone repository from github and go into working directory (./practical)
 
 2. Create virtual environment:
 
