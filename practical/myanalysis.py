@@ -48,8 +48,6 @@ def process_data():
 			print('P-Hack Successful:')
 			print(corr)
 			print('Iteration had size: ', sig_corr.shape[0], ' with seed: ', seed_i)
-			plt.matshow(df.corr())
-			plt.show()
 			break
 	for seed_i in range(seed_max):
 		df2 = add_noise(df, 'partY2', seed_i)
@@ -59,6 +57,8 @@ def process_data():
 			print('P-Hack Successful:')
 			print(corr2)
 			print('Iteration had size: ', sig_corr2.shape[0], ' with seed: ', seed_i)
+			ax = sns.heatmap(df2.corr(), linewidth=0.5)
+			plt.show()
 			break
 
 	if seed_i == seed_max - 1:
